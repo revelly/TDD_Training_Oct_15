@@ -1,0 +1,7 @@
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\bin\TddWebApp.dll
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\bin\TddWebApp.pdb
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\bin\Problem_02.dll
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\bin\Problem_02.pdb
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\obj\Debug\TddWebApp.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\obj\Debug\TddWebApp.dll
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\obj\Debug\TddWebApp.pdb

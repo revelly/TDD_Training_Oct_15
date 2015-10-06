@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b8230012-f308-43c5-9ec7-26739c02139a" name="admin@ADMIN-PC 2015-10-06 14:42:06" runUser="admin-PC\admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b9d2b321-5f9b-451a-9232-0463233a7e35">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="admin_ADMIN-PC 2015-10-06 14_42_06">
+      <DeploymentItem filename="C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\Problem_02\bin\Debug\Problem_02.dll" />
+      <DeploymentItem filename="C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\Problem_01\bin\Debug\Problem_01.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-06T14:42:06.8311283+05:30" queuing="2015-10-06T14:42:06.8411289+05:30" start="2015-10-06T14:42:06.8551297+05:30" finish="2015-10-06T14:42:07.0301397+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="8" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckIfGameStartedTwiceThrowException" storage="c:\users\admin\documents\visual studio 2010\projects\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="0c08ab89-e6ea-2cb7-4159-36b5ffdf0e3b">
+      <Execution id="33c0ed75-2aa3-4ad8-8c0b-55f6e53be497" />
+      <TestMethod codeBase="C:/Users/admin/Documents/Visual Studio 2010/Projects/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameStartedTwiceThrowException" />
+    </UnitTest>
+    <UnitTest name="TestIfStartPointExists" storage="c:\users\admin\documents\visual studio 2010\projects\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="a0397980-a34e-a1f3-d25a-b14275332670">
+      <Execution id="bf996774-4ce2-4aa8-81a5-283d50af594c" />
+      <TestMethod codeBase="C:/Users/admin/Documents/Visual Studio 2010/Projects/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.RandomGeneratorTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfStartPointExists" />
+    </UnitTest>
+    <UnitTest name="CheckAttemptsAreCorrect" storage="c:\users\admin\documents\visual studio 2010\projects\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="628db3ed-4833-0202-b315-6483646c2ec3">
+      <Execution id="51807bf1-72e0-49e0-b085-ee0164b11daa" />
+      <TestMethod codeBase="C:/Users/admin/Documents/Visual Studio 2010/Projects/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAttemptsAreCorrect" />
+    </UnitTest>
+    <UnitTest name="TestIfEndPointExists" storage="c:\users\admin\documents\visual studio 2010\projects\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="7854da99-1ae1-56fd-feed-cdb33e663f74">
+      <Execution id="a4231ca2-8606-403c-8f0c-16492c68d346" />
+      <TestMethod codeBase="C:/Users/admin/Documents/Visual Studio 2010/Projects/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.RandomGeneratorTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfEndPointExists" />
+    </UnitTest>
+    <UnitTest name="IfNumberHigherThanRandomNumberReturnAimLower" storage="c:\users\admin\documents\visual studio 2010\projects\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="cc3055af-326a-4e81-0090-c61bcc7096d2">
+      <Execution id="33ed1dfa-0c2c-43e8-a365-d698e1510108" />
+      <TestMethod codeBase="C:/Users/admin/Documents/Visual Studio 2010/Projects/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfNumberHigherThanRandomNumberReturnAimLower" />
+    </UnitTest>
+    <UnitTest name="CheckIfGameStarted" storage="c:\users\admin\documents\visual studio 2010\projects\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="54fcba90-3918-7879-c61d-d9bb244cac0a">
+      <Execution id="10eb8760-4fdc-490a-9b29-6dc0b157f49d" />
+      <TestMethod codeBase="C:/Users/admin/Documents/Visual Studio 2010/Projects/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameStarted" />
+    </UnitTest>
+    <UnitTest name="IfNumberLessThanRandomNumberReturnAimHigher" storage="c:\users\admin\documents\visual studio 2010\projects\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="3497b25c-7382-50b8-8b2e-7a9c42e0166d">
+      <Execution id="29f2138b-5b45-4ea9-a205-94b1e22317e2" />
+      <TestMethod codeBase="C:/Users/admin/Documents/Visual Studio 2010/Projects/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfNumberLessThanRandomNumberReturnAimHigher" />
+    </UnitTest>
+    <UnitTest name="TestVerifyNumberWithinStartAndEndPoint" storage="c:\users\admin\documents\visual studio 2010\projects\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="def8db2d-822f-af11-199b-3976d4144a7b">
+      <Execution id="ab2fff0a-0b2c-4d1a-8302-423533a6e2a6" />
+      <TestMethod codeBase="C:/Users/admin/Documents/Visual Studio 2010/Projects/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.RandomGeneratorTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestVerifyNumberWithinStartAndEndPoint" />
+    </UnitTest>
+    <UnitTest name="IfNumberEqualToRandomNumberReturnSucess" storage="c:\users\admin\documents\visual studio 2010\projects\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="9a2b2de3-68f6-0d01-db1a-1d37f11feefc">
+      <Execution id="ed9a2ea9-3a0b-435f-a7ab-cae1e299732f" />
+      <TestMethod codeBase="C:/Users/admin/Documents/Visual Studio 2010/Projects/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfNumberEqualToRandomNumberReturnSucess" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0c08ab89-e6ea-2cb7-4159-36b5ffdf0e3b" executionId="33c0ed75-2aa3-4ad8-8c0b-55f6e53be497" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3497b25c-7382-50b8-8b2e-7a9c42e0166d" executionId="29f2138b-5b45-4ea9-a205-94b1e22317e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54fcba90-3918-7879-c61d-d9bb244cac0a" executionId="10eb8760-4fdc-490a-9b29-6dc0b157f49d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="628db3ed-4833-0202-b315-6483646c2ec3" executionId="51807bf1-72e0-49e0-b085-ee0164b11daa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7854da99-1ae1-56fd-feed-cdb33e663f74" executionId="a4231ca2-8606-403c-8f0c-16492c68d346" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a2b2de3-68f6-0d01-db1a-1d37f11feefc" executionId="ed9a2ea9-3a0b-435f-a7ab-cae1e299732f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0397980-a34e-a1f3-d25a-b14275332670" executionId="bf996774-4ce2-4aa8-81a5-283d50af594c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc3055af-326a-4e81-0090-c61bcc7096d2" executionId="33ed1dfa-0c2c-43e8-a365-d698e1510108" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="def8db2d-822f-af11-199b-3976d4144a7b" executionId="ab2fff0a-0b2c-4d1a-8302-423533a6e2a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="33c0ed75-2aa3-4ad8-8c0b-55f6e53be497" testId="0c08ab89-e6ea-2cb7-4159-36b5ffdf0e3b" testName="CheckIfGameStartedTwiceThrowException" computerName="ADMIN-PC" duration="00:00:00.0082886" startTime="2015-10-06T14:42:06.8651303+05:30" endTime="2015-10-06T14:42:06.9691362+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33c0ed75-2aa3-4ad8-8c0b-55f6e53be497">
+    </UnitTestResult>
+    <UnitTestResult executionId="29f2138b-5b45-4ea9-a205-94b1e22317e2" testId="3497b25c-7382-50b8-8b2e-7a9c42e0166d" testName="IfNumberLessThanRandomNumberReturnAimHigher" computerName="ADMIN-PC" duration="00:00:00.0011689" startTime="2015-10-06T14:42:06.9711363+05:30" endTime="2015-10-06T14:42:06.9771367+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29f2138b-5b45-4ea9-a205-94b1e22317e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="10eb8760-4fdc-490a-9b29-6dc0b157f49d" testId="54fcba90-3918-7879-c61d-d9bb244cac0a" testName="CheckIfGameStarted" computerName="ADMIN-PC" duration="00:00:00.0001214" startTime="2015-10-06T14:42:06.9821370+05:30" endTime="2015-10-06T14:42:06.9861372+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10eb8760-4fdc-490a-9b29-6dc0b157f49d">
+    </UnitTestResult>
+    <UnitTestResult executionId="51807bf1-72e0-49e0-b085-ee0164b11daa" testId="628db3ed-4833-0202-b315-6483646c2ec3" testName="CheckAttemptsAreCorrect" computerName="ADMIN-PC" duration="00:00:00.0001821" startTime="2015-10-06T14:42:06.9861372+05:30" endTime="2015-10-06T14:42:06.9891374+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51807bf1-72e0-49e0-b085-ee0164b11daa">
+    </UnitTestResult>
+    <UnitTestResult executionId="a4231ca2-8606-403c-8f0c-16492c68d346" testId="7854da99-1ae1-56fd-feed-cdb33e663f74" testName="TestIfEndPointExists" computerName="ADMIN-PC" duration="00:00:00.0002215" startTime="2015-10-06T14:42:06.9901374+05:30" endTime="2015-10-06T14:42:06.9941376+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4231ca2-8606-403c-8f0c-16492c68d346">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed9a2ea9-3a0b-435f-a7ab-cae1e299732f" testId="9a2b2de3-68f6-0d01-db1a-1d37f11feefc" testName="IfNumberEqualToRandomNumberReturnSucess" computerName="ADMIN-PC" duration="00:00:00.0089443" startTime="2015-10-06T14:42:06.9951377+05:30" endTime="2015-10-06T14:42:07.0071384+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed9a2ea9-3a0b-435f-a7ab-cae1e299732f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;You've got it!&gt;. Actual:&lt;Try Again!&gt;. </Message>
+          <StackTrace>   at tddTestProject.GuessGameEngineTests.IfNumberEqualToRandomNumberReturnSucess() in C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\GuessGameEngineTests.cs:line 89
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bf996774-4ce2-4aa8-81a5-283d50af594c" testId="a0397980-a34e-a1f3-d25a-b14275332670" testName="TestIfStartPointExists" computerName="ADMIN-PC" duration="00:00:00.0001285" startTime="2015-10-06T14:42:07.0091385+05:30" endTime="2015-10-06T14:42:07.0121387+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf996774-4ce2-4aa8-81a5-283d50af594c">
+    </UnitTestResult>
+    <UnitTestResult executionId="33ed1dfa-0c2c-43e8-a365-d698e1510108" testId="cc3055af-326a-4e81-0090-c61bcc7096d2" testName="IfNumberHigherThanRandomNumberReturnAimLower" computerName="ADMIN-PC" duration="00:00:00.0001773" startTime="2015-10-06T14:42:07.0131387+05:30" endTime="2015-10-06T14:42:07.0161389+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33ed1dfa-0c2c-43e8-a365-d698e1510108">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab2fff0a-0b2c-4d1a-8302-423533a6e2a6" testId="def8db2d-822f-af11-199b-3976d4144a7b" testName="TestVerifyNumberWithinStartAndEndPoint" computerName="ADMIN-PC" duration="00:00:00.0002332" startTime="2015-10-06T14:42:07.0171390+05:30" endTime="2015-10-06T14:42:07.0211392+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab2fff0a-0b2c-4d1a-8302-423533a6e2a6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

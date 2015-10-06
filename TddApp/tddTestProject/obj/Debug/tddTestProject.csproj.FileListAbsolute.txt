@@ -1,0 +1,9 @@
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\bin\Debug\tddTestProject.dll
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\bin\Debug\tddTestProject.pdb
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\bin\Debug\Problem_01.exe
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\bin\Debug\Problem_01.pdb
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\obj\Debug\tddTestProject.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\obj\Debug\tddTestProject.dll
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\obj\Debug\tddTestProject.pdb
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\bin\Debug\Problem_02.dll
+C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\bin\Debug\Problem_02.pdb
