@@ -8,7 +8,6 @@ using Problem_01;
 namespace tddTestProject
 {
     [TestClass]
-    [Ignore]
     public class GameMathEngineTest
     {
         [TestMethod]

@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem_02", "Problem_02\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddWebApp", "TddWebApp\TddWebApp.csproj", "{868C13EA-71B0-4471-B57A-CA094E732CCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddJsApp", "TddJsApp\TddJsApp.csproj", "{85007220-F891-48AE-B6CE-ED0A5DC54566}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = TddApp.vsmdi
@@ -81,6 +83,16 @@ Global
 		{868C13EA-71B0-4471-B57A-CA094E732CCF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{868C13EA-71B0-4471-B57A-CA094E732CCF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{868C13EA-71B0-4471-B57A-CA094E732CCF}.Release|x86.ActiveCfg = Release|Any CPU
+		{85007220-F891-48AE-B6CE-ED0A5DC54566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85007220-F891-48AE-B6CE-ED0A5DC54566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85007220-F891-48AE-B6CE-ED0A5DC54566}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{85007220-F891-48AE-B6CE-ED0A5DC54566}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{85007220-F891-48AE-B6CE-ED0A5DC54566}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{85007220-F891-48AE-B6CE-ED0A5DC54566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85007220-F891-48AE-B6CE-ED0A5DC54566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85007220-F891-48AE-B6CE-ED0A5DC54566}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{85007220-F891-48AE-B6CE-ED0A5DC54566}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{85007220-F891-48AE-B6CE-ED0A5DC54566}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

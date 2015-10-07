@@ -7,3 +7,12 @@ C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\obj\D
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\obj\Debug\tddTestProject.pdb
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\bin\Debug\Problem_02.dll
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\tddTestProject\bin\Debug\Problem_02.pdb
+C:\wells Fargo\Git\TddApp\tddTestProject\bin\Debug\tddTestProject.dll
+C:\wells Fargo\Git\TddApp\tddTestProject\bin\Debug\tddTestProject.pdb
+C:\wells Fargo\Git\TddApp\tddTestProject\bin\Debug\Problem_01.exe
+C:\wells Fargo\Git\TddApp\tddTestProject\bin\Debug\Problem_02.dll
+C:\wells Fargo\Git\TddApp\tddTestProject\bin\Debug\Problem_01.pdb
+C:\wells Fargo\Git\TddApp\tddTestProject\bin\Debug\Problem_02.pdb
+C:\wells Fargo\Git\TddApp\tddTestProject\obj\Debug\tddTestProject.csprojResolveAssemblyReference.cache
+C:\wells Fargo\Git\TddApp\tddTestProject\obj\Debug\tddTestProject.dll
+C:\wells Fargo\Git\TddApp\tddTestProject\obj\Debug\tddTestProject.pdb

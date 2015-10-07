@@ -2,3 +2,7 @@ C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\Problem_02\bin\Debug
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\Problem_02\bin\Debug\Problem_02.pdb
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\Problem_02\obj\Debug\Problem_02.dll
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\Problem_02\obj\Debug\Problem_02.pdb
+C:\wells Fargo\Git\TddApp\Problem_02\bin\Debug\Problem_02.dll
+C:\wells Fargo\Git\TddApp\Problem_02\bin\Debug\Problem_02.pdb
+C:\wells Fargo\Git\TddApp\Problem_02\obj\Debug\Problem_02.dll
+C:\wells Fargo\Git\TddApp\Problem_02\obj\Debug\Problem_02.pdb

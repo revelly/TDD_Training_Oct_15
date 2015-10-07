@@ -20,25 +20,14 @@ namespace tddTestProject
         }
 
         [TestMethod]
+        [ExpectedException(typeof(Exception),
+         "Game has already started!")]
         public void CheckIfGameStartedTwiceThrowException()
         {
             var target = getTarget();
-
-            try
-            {
-                target.startGame();
-                target.startGame();
-
-                Assert.Fail("fialed");
-            }
-            catch (AssertFailedException) { throw; }
-            catch(Exception ex)
-            {
-                var result = ex.Message.Contains("Game has already started!");
-
-                Assert.IsTrue(result);
-            }
             
+            target.startGame();
+            target.startGame();
         }
 
         [TestMethod]
@@ -143,8 +132,6 @@ namespace tddTestProject
         }
 
         [TestMethod]
-        [ExpectedException(typeof(Exception),
-         "A userId of null was inappropriately allowed.")]
         public void CheckStatusResetAfterRestart()
         {
             var target = getTarget();
