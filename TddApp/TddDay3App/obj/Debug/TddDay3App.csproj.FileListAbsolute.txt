@@ -1,0 +1,4 @@
+C:\wells Fargo\Git\TddApp\TddDay3App\bin\Debug\TddDay3App.dll
+C:\wells Fargo\Git\TddApp\TddDay3App\bin\Debug\TddDay3App.pdb
+C:\wells Fargo\Git\TddApp\TddDay3App\obj\Debug\TddDay3App.dll
+C:\wells Fargo\Git\TddApp\TddDay3App\obj\Debug\TddDay3App.pdb

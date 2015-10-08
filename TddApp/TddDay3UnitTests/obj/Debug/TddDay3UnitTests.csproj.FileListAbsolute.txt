@@ -1,0 +1,9 @@
+C:\wells Fargo\Git\TddApp\TddDay3UnitTests\bin\Debug\TddDay3UnitTests.dll
+C:\wells Fargo\Git\TddApp\TddDay3UnitTests\bin\Debug\TddDay3UnitTests.pdb
+C:\wells Fargo\Git\TddApp\TddDay3UnitTests\bin\Debug\TddDay3App.dll
+C:\wells Fargo\Git\TddApp\TddDay3UnitTests\bin\Debug\TddDay3App.pdb
+C:\wells Fargo\Git\TddApp\TddDay3UnitTests\obj\Debug\TddDay3UnitTests.csprojResolveAssemblyReference.cache
+C:\wells Fargo\Git\TddApp\TddDay3UnitTests\obj\Debug\TddDay3UnitTests.dll
+C:\wells Fargo\Git\TddApp\TddDay3UnitTests\obj\Debug\TddDay3UnitTests.pdb
+C:\wells Fargo\Git\TddApp\TddDay3UnitTests\bin\Debug\Moq.dll
+C:\wells Fargo\Git\TddApp\TddDay3UnitTests\bin\Debug\Moq.xml

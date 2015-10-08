@@ -6,3 +6,4 @@ C:\wells Fargo\Git\TddApp\Problem_01\bin\Debug\Problem_01.exe
 C:\wells Fargo\Git\TddApp\Problem_01\bin\Debug\Problem_01.pdb
 C:\wells Fargo\Git\TddApp\Problem_01\obj\x86\Debug\Problem_01.exe
 C:\wells Fargo\Git\TddApp\Problem_01\obj\x86\Debug\Problem_01.pdb
+C:\wells Fargo\Git\TddApp\Problem_01\obj\x86\Debug\Problem_01.csprojResolveAssemblyReference.cache

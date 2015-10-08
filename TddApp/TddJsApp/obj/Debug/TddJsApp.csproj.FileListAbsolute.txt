@@ -2,3 +2,6 @@ C:\wells Fargo\Git\TddApp\TddJsApp\bin\TddJsApp.dll
 C:\wells Fargo\Git\TddApp\TddJsApp\bin\TddJsApp.pdb
 C:\wells Fargo\Git\TddApp\TddJsApp\obj\Debug\TddJsApp.dll
 C:\wells Fargo\Git\TddApp\TddJsApp\obj\Debug\TddJsApp.pdb
+C:\wells Fargo\Git\TddApp\TddJsApp\bin\Moq.dll
+C:\wells Fargo\Git\TddApp\TddJsApp\bin\Moq.xml
+C:\wells Fargo\Git\TddApp\TddJsApp\obj\Debug\TddJsApp.csprojResolveAssemblyReference.cache

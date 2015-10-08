@@ -1,0 +1,7 @@
+C:\wells Fargo\Git\TddApp\TddDay3AuthServiceTests\bin\Debug\TddDay3AuthServiceTests.dll
+C:\wells Fargo\Git\TddApp\TddDay3AuthServiceTests\bin\Debug\TddDay3AuthServiceTests.pdb
+C:\wells Fargo\Git\TddApp\TddDay3AuthServiceTests\bin\Debug\TddDay3AuthService.dll
+C:\wells Fargo\Git\TddApp\TddDay3AuthServiceTests\bin\Debug\TddDay3AuthService.pdb
+C:\wells Fargo\Git\TddApp\TddDay3AuthServiceTests\obj\Debug\TddDay3AuthServiceTests.csprojResolveAssemblyReference.cache
+C:\wells Fargo\Git\TddApp\TddDay3AuthServiceTests\obj\Debug\TddDay3AuthServiceTests.dll
+C:\wells Fargo\Git\TddApp\TddDay3AuthServiceTests\obj\Debug\TddDay3AuthServiceTests.pdb

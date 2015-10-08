@@ -5,3 +5,10 @@ C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddApp\obj\x86\Debug
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddApp\bin\Debug\Problem_02.dll
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddApp\bin\Debug\Problem_02.pdb
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddApp\obj\x86\Debug\TddApp.csprojResolveAssemblyReference.cache
+C:\wells Fargo\Git\TddApp\TddApp\bin\Debug\TddApp.exe
+C:\wells Fargo\Git\TddApp\TddApp\bin\Debug\TddApp.pdb
+C:\wells Fargo\Git\TddApp\TddApp\bin\Debug\Problem_02.dll
+C:\wells Fargo\Git\TddApp\TddApp\bin\Debug\Problem_02.pdb
+C:\wells Fargo\Git\TddApp\TddApp\obj\x86\Debug\TddApp.csprojResolveAssemblyReference.cache
+C:\wells Fargo\Git\TddApp\TddApp\obj\x86\Debug\TddApp.exe
+C:\wells Fargo\Git\TddApp\TddApp\obj\x86\Debug\TddApp.pdb

@@ -5,3 +5,10 @@ C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\bin\Proble
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\obj\Debug\TddWebApp.csprojResolveAssemblyReference.cache
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\obj\Debug\TddWebApp.dll
 C:\Users\admin\Documents\Visual Studio 2010\Projects\TddApp\TddWebApp\obj\Debug\TddWebApp.pdb
+C:\wells Fargo\Git\TddApp\TddWebApp\bin\TddWebApp.dll
+C:\wells Fargo\Git\TddApp\TddWebApp\bin\TddWebApp.pdb
+C:\wells Fargo\Git\TddApp\TddWebApp\bin\Problem_02.dll
+C:\wells Fargo\Git\TddApp\TddWebApp\bin\Problem_02.pdb
+C:\wells Fargo\Git\TddApp\TddWebApp\obj\Debug\TddWebApp.csprojResolveAssemblyReference.cache
+C:\wells Fargo\Git\TddApp\TddWebApp\obj\Debug\TddWebApp.dll
+C:\wells Fargo\Git\TddApp\TddWebApp\obj\Debug\TddWebApp.pdb

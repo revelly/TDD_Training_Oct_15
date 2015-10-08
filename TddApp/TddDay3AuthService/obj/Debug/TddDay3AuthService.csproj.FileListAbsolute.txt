@@ -1,0 +1,4 @@
+C:\wells Fargo\Git\TddApp\TddDay3AuthService\bin\Debug\TddDay3AuthService.dll
+C:\wells Fargo\Git\TddApp\TddDay3AuthService\bin\Debug\TddDay3AuthService.pdb
+C:\wells Fargo\Git\TddApp\TddDay3AuthService\obj\Debug\TddDay3AuthService.dll
+C:\wells Fargo\Git\TddApp\TddDay3AuthService\obj\Debug\TddDay3AuthService.pdb

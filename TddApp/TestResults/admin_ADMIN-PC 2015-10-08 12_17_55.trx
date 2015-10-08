@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c5f08a24-91df-4417-99c3-63c88597dc88" name="admin@ADMIN-PC 2015-10-08 12:17:55" runUser="admin-PC\admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b9d2b321-5f9b-451a-9232-0463233a7e35">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="admin_ADMIN-PC 2015-10-08 12_17_55">
+      <DeploymentItem filename="C:\wells Fargo\Git\TddApp\packages\Moq.4.2.1507.0118\lib\net40\Moq.dll" />
+      <DeploymentItem filename="C:\wells Fargo\Git\TddApp\TddDay3AuthService\bin\Debug\TddDay3AuthService.dll" />
+      <DeploymentItem filename="C:\wells Fargo\Git\TddApp\Problem_01\bin\Debug\Problem_01.exe" />
+      <DeploymentItem filename="C:\wells Fargo\Git\TddApp\Problem_02\bin\Debug\Problem_02.dll" />
+      <DeploymentItem filename="C:\wells Fargo\Git\TddApp\TddDay3App\bin\Debug\TddDay3App.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-08T12:17:55.0010591+05:30" queuing="2015-10-08T12:17:55.1258593+05:30" start="2015-10-08T12:17:55.1570594+05:30" finish="2015-10-08T12:17:55.6250602+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="39" executed="39" passed="39" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IfNumberHigherThanRandomNumberReturnAimLower" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="cc3055af-326a-4e81-0090-c61bcc7096d2">
+      <Execution id="6a238809-21e5-426a-9265-5d9663a7b8bc" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfNumberHigherThanRandomNumberReturnAimLower" />
+    </UnitTest>
+    <UnitTest name="has_set_end_point" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="186c07bc-8a36-7912-54f0-b0629d0baf3f">
+      <Execution id="a6bb358b-9bce-4179-8032-8ca4b6e3ee2a" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GameMathEngineTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="has_set_end_point" />
+    </UnitTest>
+    <UnitTest name="CheckIfGameHasEnded" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="f57d2ab1-0c89-889e-767b-bfb8b2e0efb9">
+      <Execution id="fdb4ca39-1c73-4c2c-932a-059f1458236f" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.GuessGameEngineTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameHasEnded" />
+    </UnitTest>
+    <UnitTest name="IfNumberLessThanRandomNumberReturnAimHigher" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="3497b25c-7382-50b8-8b2e-7a9c42e0166d">
+      <Execution id="007b5dda-4317-48f2-a79f-12530017a271" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfNumberLessThanRandomNumberReturnAimHigher" />
+    </UnitTest>
+    <UnitTest name="CheckIfGameStarted" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="54fcba90-3918-7879-c61d-d9bb244cac0a">
+      <Execution id="7809f968-acc8-499c-b9dd-dafbe9c143e4" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameStarted" />
+    </UnitTest>
+    <UnitTest name="TestVerifyNumberWithinStartAndEndPoint" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="4d76f5fa-3fe2-81d1-1187-8ef08a6e240d">
+      <Execution id="5ec3a528-2bb9-475c-99f6-49aeeea11e86" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.RandomGeneratorTest, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestVerifyNumberWithinStartAndEndPoint" />
+    </UnitTest>
+    <UnitTest name="TestIfStartPointExists" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="92a61772-04ec-4360-4f35-d5e61bd61325">
+      <Execution id="fb8df410-6119-4b3f-a30a-13914bdc8156" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.RandomGeneratorTest, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfStartPointExists" />
+    </UnitTest>
+    <UnitTest name="IfNumberEqualToRandomNumberReturnSucess" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="9a2b2de3-68f6-0d01-db1a-1d37f11feefc">
+      <Execution id="3b30b3de-ee53-4c05-8824-d47faad537aa" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfNumberEqualToRandomNumberReturnSucess" />
+    </UnitTest>
+    <UnitTest name="thow_exception_if_game_played_wihtout_start_point" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="8c7f8890-8b9c-e555-7a33-7b72be1c0da7">
+      <Execution id="484e8d0a-17c3-413a-a4db-7a28ba2673e2" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GameMathEngineTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="thow_exception_if_game_played_wihtout_start_point" />
+    </UnitTest>
+    <UnitTest name="IfNumberEqualToRandomNumberReturnSucess" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="8720b569-9209-06d4-6550-753aaac9e543">
+      <Execution id="0a17bf96-3e93-4092-9ad2-c30bd47b3c9c" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.GuessGameEngineTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfNumberEqualToRandomNumberReturnSucess" />
+    </UnitTest>
+    <UnitTest name="CheckIfGameStartedTwiceThrowException" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="0c08ab89-e6ea-2cb7-4159-36b5ffdf0e3b">
+      <Execution id="b7a6655a-04bb-40a0-9a30-d9dc58136507" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameStartedTwiceThrowException" />
+    </UnitTest>
+    <UnitTest name="CheckIfGameStarted" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="ee13354e-b72b-89f6-ebb1-d78ef7ea2cab">
+      <Execution id="7e31ec1f-f69c-4a82-a9f0-713a8b5d801b" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.GuessGameEngineTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameStarted" />
+    </UnitTest>
+    <UnitTest name="TestIfUserAcceptsUserNameShouldBeLessThan10" storage="c:\wells fargo\git\tddapp\tddday3authservicetests\bin\debug\tddday3authservicetests.dll" id="bb824667-b086-dc7e-b579-864d082c0259">
+      <Execution id="c69825bf-b13c-4ba8-8d4c-8ebeceed2b35" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3AuthServiceTests/bin/Debug/TddDay3AuthServiceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3AuthServiceTests.UserTests, TddDay3AuthServiceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfUserAcceptsUserNameShouldBeLessThan10" />
+    </UnitTest>
+    <UnitTest name="CheckIfGameHasEnded" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="bd475ef8-fb8a-003b-4339-2cbce56adb35">
+      <Execution id="b2c5edc0-9ae7-48fb-a27e-424cdac2a745" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameHasEnded" />
+    </UnitTest>
+    <UnitTest name="given_user_not_within_points_throw_exception" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="b0487565-d838-1898-01aa-1c9a8a90ddc7">
+      <Execution id="deebd090-3dbc-41f5-a37b-50f439499e9c" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GameMathEngineTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="given_user_not_within_points_throw_exception" />
+    </UnitTest>
+    <UnitTest name="TestIfPasswordShouldBeLessThan6" storage="c:\wells fargo\git\tddapp\tddday3authservicetests\bin\debug\tddday3authservicetests.dll" id="3e975d89-b60a-734a-8024-34a0039ed9e6">
+      <Execution id="a1109528-345c-4070-94be-f278c5c6dceb" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3AuthServiceTests/bin/Debug/TddDay3AuthServiceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3AuthServiceTests.UserTests, TddDay3AuthServiceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfPasswordShouldBeLessThan6" />
+    </UnitTest>
+    <UnitTest name="CheckIfGameHasPlayerNameBeforeStarted" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="244283fa-1c02-45c5-c9a4-7ff4d210fe59">
+      <Execution id="f06cf8a6-74e5-4046-a5ab-d0ca5b4daa1f" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.GuessGameEngineTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameHasPlayerNameBeforeStarted" />
+    </UnitTest>
+    <UnitTest name="CheckStatusResetAfterRestart" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="89dc68fa-fa07-4217-bd48-3876e3a56f3d">
+      <Execution id="646b8b29-cce6-47d4-8349-5f0f2898777d" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.GuessGameEngineTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckStatusResetAfterRestart" />
+    </UnitTest>
+    <UnitTest name="WhenInputNotDivisibleBy35ReturnNumber" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="7a34aa6a-332e-10b0-fe4c-9e18b9fa90a8">
+      <Execution id="79ac02df-373b-4ce1-b74c-f52623433ecf" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GameMathEngineTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenInputNotDivisibleBy35ReturnNumber" />
+    </UnitTest>
+    <UnitTest name="TestIfUserNameShouldBeGreaterThan8" storage="c:\wells fargo\git\tddapp\tddday3authservicetests\bin\debug\tddday3authservicetests.dll" id="b1ce1113-cd53-b685-c41f-160138355239">
+      <Execution id="e3b3e4d8-07a9-4b9b-9c67-80d6d92c9f67" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3AuthServiceTests/bin/Debug/TddDay3AuthServiceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3AuthServiceTests.UserTests, TddDay3AuthServiceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfUserNameShouldBeGreaterThan8" />
+    </UnitTest>
+    <UnitTest name="TestIfEndPointExists" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="7854da99-1ae1-56fd-feed-cdb33e663f74">
+      <Execution id="146badf4-cf16-49ee-9a21-f517f840c0fc" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.RandomGeneratorTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfEndPointExists" />
+    </UnitTest>
+    <UnitTest name="has_set_start_point" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="3f996c05-39a7-d0bc-f580-c919dd3b0410">
+      <Execution id="c2e60c5f-709e-4d6f-a38f-0501c43d44a4" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GameMathEngineTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="has_set_start_point" />
+    </UnitTest>
+    <UnitTest name="CheckIfGameHasNotEndedInitial" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="a64fb3be-0a63-85d4-2861-eb2a6c9c9224">
+      <Execution id="5f09fbe8-e6fb-4a35-ac98-ef58b68669bd" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameHasNotEndedInitial" />
+    </UnitTest>
+    <UnitTest name="TestIfStartPointExists" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="a0397980-a34e-a1f3-d25a-b14275332670">
+      <Execution id="8a8045dd-17d2-41d4-add4-d14477be2be7" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.RandomGeneratorTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfStartPointExists" />
+    </UnitTest>
+    <UnitTest name="CheckAttemptsAreCorrect" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="628db3ed-4833-0202-b315-6483646c2ec3">
+      <Execution id="6041ecad-662c-4157-aff0-53214e11bb6b" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAttemptsAreCorrect" />
+    </UnitTest>
+    <UnitTest name="WhenInputDivisibleBy3ReturnHot" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="eddd791a-6384-e71b-58a3-bd0bacce3d9e">
+      <Execution id="dc7bdc76-c2f4-4db1-b627-1bb17ee1d9bd" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GameMathEngineTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenInputDivisibleBy3ReturnHot" />
+    </UnitTest>
+    <UnitTest name="TestIfPasswordShouldBeGreaterThan4" storage="c:\wells fargo\git\tddapp\tddday3authservicetests\bin\debug\tddday3authservicetests.dll" id="9dd4ea43-fef2-c7b7-a959-e96e602dd556">
+      <Execution id="d8d8db11-e571-4cc3-b61b-5161c77bd21f" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3AuthServiceTests/bin/Debug/TddDay3AuthServiceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3AuthServiceTests.UserTests, TddDay3AuthServiceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfPasswordShouldBeGreaterThan4" />
+    </UnitTest>
+    <UnitTest name="IfNumberHigherThanRandomNumberReturnAimLower" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="00b784ad-9bd8-a0b2-58f9-59771d4cc74c">
+      <Execution id="87e34bf6-6600-48a4-87ea-4e6bc34dc98b" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.GuessGameEngineTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfNumberHigherThanRandomNumberReturnAimLower" />
+    </UnitTest>
+    <UnitTest name="TestVerifyNumberWithinStartAndEndPoint" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="def8db2d-822f-af11-199b-3976d4144a7b">
+      <Execution id="248416db-69cd-43af-9708-a15c8b187590" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.RandomGeneratorTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestVerifyNumberWithinStartAndEndPoint" />
+    </UnitTest>
+    <UnitTest name="TestIfEndPointExists" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="cff0795b-2276-0bde-8da2-002609763bb7">
+      <Execution id="f423c89b-a903-488d-a509-bdb1ecdd0228" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.RandomGeneratorTest, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfEndPointExists" />
+    </UnitTest>
+    <UnitTest name="TestWhetherGameIsSavedAfterEnded" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="f43b139c-b8d9-d094-5740-45ab3dee97f9">
+      <Execution id="f50d674e-1ae8-485d-bf82-e7b1e804e1a9" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.StorageModelTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestWhetherGameIsSavedAfterEnded" />
+    </UnitTest>
+    <UnitTest name="CheckStatusResetAfterRestart" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="4c30c4d4-2829-b02b-fa55-19e47c6af84e">
+      <Execution id="9b847b47-ffc2-4604-955f-d2ec87b026f0" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GuessGameEngineTests, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckStatusResetAfterRestart" />
+    </UnitTest>
+    <UnitTest name="CheckAttemptsAreCorrect" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="0ac0ffee-e4de-5e4a-faf6-1d19ebf93667">
+      <Execution id="800f8ea0-306c-47e5-bd7f-07f086033de5" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.GuessGameEngineTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAttemptsAreCorrect" />
+    </UnitTest>
+    <UnitTest name="IfNumberLessThanRandomNumberReturnAimHigher" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="718bded5-fa79-d4bf-e874-a7249fbd2fb7">
+      <Execution id="141ef167-4dc3-4c2a-a860-d9a7189a0bcd" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.GuessGameEngineTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfNumberLessThanRandomNumberReturnAimHigher" />
+    </UnitTest>
+    <UnitTest name="WhenInputDivisibleBy5ReturnHotter" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="79d1f11b-f8c6-33ff-d37f-30c19a12747d">
+      <Execution id="1d817729-4a12-4bfc-a89c-9172a6487218" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GameMathEngineTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenInputDivisibleBy5ReturnHotter" />
+    </UnitTest>
+    <UnitTest name="CheckIfGameStartedTwiceThrowException" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="e9204512-d2b3-39ac-9848-daf06e6c1aa5">
+      <Execution id="efe8a519-9f8c-4866-aea1-95d7a15ea0ff" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.GuessGameEngineTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameStartedTwiceThrowException" />
+    </UnitTest>
+    <UnitTest name="CheckIfGameHasNotEndedInitial" storage="c:\wells fargo\git\tddapp\tddday3unittests\bin\debug\tddday3unittests.dll" id="d6f3b8a1-33ee-26cb-99cf-a677ccfbf700">
+      <Execution id="92530fc4-bf15-472a-8035-1a76a08c673e" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/TddDay3UnitTests/bin/Debug/TddDay3UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TddDay3UnitTests.GuessGameEngineTests, TddDay3UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfGameHasNotEndedInitial" />
+    </UnitTest>
+    <UnitTest name="thow_exception_if_game_played_wihtout_end_point" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="4b4b5107-e16d-6844-6fee-d7a0c1e5fbbf">
+      <Execution id="4f190743-2e37-430d-83ab-6d7da75e58de" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GameMathEngineTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="thow_exception_if_game_played_wihtout_end_point" />
+    </UnitTest>
+    <UnitTest name="is_game_started" storage="c:\wells fargo\git\tddapp\tddtestproject\bin\debug\tddtestproject.dll" id="f9b06688-15b7-1a90-fecb-9e5011809b8f">
+      <Execution id="821c5aab-c14d-4693-b1e1-58270c338549" />
+      <TestMethod codeBase="C:/wells Fargo/Git/TddApp/tddTestProject/bin/Debug/tddTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tddTestProject.GameMathEngineTest, tddTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="is_game_started" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00b784ad-9bd8-a0b2-58f9-59771d4cc74c" executionId="87e34bf6-6600-48a4-87ea-4e6bc34dc98b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ac0ffee-e4de-5e4a-faf6-1d19ebf93667" executionId="800f8ea0-306c-47e5-bd7f-07f086033de5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c08ab89-e6ea-2cb7-4159-36b5ffdf0e3b" executionId="b7a6655a-04bb-40a0-9a30-d9dc58136507" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="186c07bc-8a36-7912-54f0-b0629d0baf3f" executionId="a6bb358b-9bce-4179-8032-8ca4b6e3ee2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="244283fa-1c02-45c5-c9a4-7ff4d210fe59" executionId="f06cf8a6-74e5-4046-a5ab-d0ca5b4daa1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3497b25c-7382-50b8-8b2e-7a9c42e0166d" executionId="007b5dda-4317-48f2-a79f-12530017a271" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e975d89-b60a-734a-8024-34a0039ed9e6" executionId="a1109528-345c-4070-94be-f278c5c6dceb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f996c05-39a7-d0bc-f580-c919dd3b0410" executionId="c2e60c5f-709e-4d6f-a38f-0501c43d44a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b4b5107-e16d-6844-6fee-d7a0c1e5fbbf" executionId="4f190743-2e37-430d-83ab-6d7da75e58de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c30c4d4-2829-b02b-fa55-19e47c6af84e" executionId="9b847b47-ffc2-4604-955f-d2ec87b026f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d76f5fa-3fe2-81d1-1187-8ef08a6e240d" executionId="5ec3a528-2bb9-475c-99f6-49aeeea11e86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54fcba90-3918-7879-c61d-d9bb244cac0a" executionId="7809f968-acc8-499c-b9dd-dafbe9c143e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="628db3ed-4833-0202-b315-6483646c2ec3" executionId="6041ecad-662c-4157-aff0-53214e11bb6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="718bded5-fa79-d4bf-e874-a7249fbd2fb7" executionId="141ef167-4dc3-4c2a-a860-d9a7189a0bcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7854da99-1ae1-56fd-feed-cdb33e663f74" executionId="146badf4-cf16-49ee-9a21-f517f840c0fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79d1f11b-f8c6-33ff-d37f-30c19a12747d" executionId="1d817729-4a12-4bfc-a89c-9172a6487218" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a34aa6a-332e-10b0-fe4c-9e18b9fa90a8" executionId="79ac02df-373b-4ce1-b74c-f52623433ecf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8720b569-9209-06d4-6550-753aaac9e543" executionId="0a17bf96-3e93-4092-9ad2-c30bd47b3c9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89dc68fa-fa07-4217-bd48-3876e3a56f3d" executionId="646b8b29-cce6-47d4-8349-5f0f2898777d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c7f8890-8b9c-e555-7a33-7b72be1c0da7" executionId="484e8d0a-17c3-413a-a4db-7a28ba2673e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92a61772-04ec-4360-4f35-d5e61bd61325" executionId="fb8df410-6119-4b3f-a30a-13914bdc8156" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a2b2de3-68f6-0d01-db1a-1d37f11feefc" executionId="3b30b3de-ee53-4c05-8824-d47faad537aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9dd4ea43-fef2-c7b7-a959-e96e602dd556" executionId="d8d8db11-e571-4cc3-b61b-5161c77bd21f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0397980-a34e-a1f3-d25a-b14275332670" executionId="8a8045dd-17d2-41d4-add4-d14477be2be7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a64fb3be-0a63-85d4-2861-eb2a6c9c9224" executionId="5f09fbe8-e6fb-4a35-ac98-ef58b68669bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0487565-d838-1898-01aa-1c9a8a90ddc7" executionId="deebd090-3dbc-41f5-a37b-50f439499e9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1ce1113-cd53-b685-c41f-160138355239" executionId="e3b3e4d8-07a9-4b9b-9c67-80d6d92c9f67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb824667-b086-dc7e-b579-864d082c0259" executionId="c69825bf-b13c-4ba8-8d4c-8ebeceed2b35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd475ef8-fb8a-003b-4339-2cbce56adb35" executionId="b2c5edc0-9ae7-48fb-a27e-424cdac2a745" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc3055af-326a-4e81-0090-c61bcc7096d2" executionId="6a238809-21e5-426a-9265-5d9663a7b8bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cff0795b-2276-0bde-8da2-002609763bb7" executionId="f423c89b-a903-488d-a509-bdb1ecdd0228" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6f3b8a1-33ee-26cb-99cf-a677ccfbf700" executionId="92530fc4-bf15-472a-8035-1a76a08c673e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="def8db2d-822f-af11-199b-3976d4144a7b" executionId="248416db-69cd-43af-9708-a15c8b187590" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9204512-d2b3-39ac-9848-daf06e6c1aa5" executionId="efe8a519-9f8c-4866-aea1-95d7a15ea0ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eddd791a-6384-e71b-58a3-bd0bacce3d9e" executionId="dc7bdc76-c2f4-4db1-b627-1bb17ee1d9bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee13354e-b72b-89f6-ebb1-d78ef7ea2cab" executionId="7e31ec1f-f69c-4a82-a9f0-713a8b5d801b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f43b139c-b8d9-d094-5740-45ab3dee97f9" executionId="f50d674e-1ae8-485d-bf82-e7b1e804e1a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f57d2ab1-0c89-889e-767b-bfb8b2e0efb9" executionId="fdb4ca39-1c73-4c2c-932a-059f1458236f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9b06688-15b7-1a90-fecb-9e5011809b8f" executionId="821c5aab-c14d-4693-b1e1-58270c338549" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="87e34bf6-6600-48a4-87ea-4e6bc34dc98b" testId="00b784ad-9bd8-a0b2-58f9-59771d4cc74c" testName="IfNumberHigherThanRandomNumberReturnAimLower" computerName="ADMIN-PC" duration="00:00:00.0088414" startTime="2015-10-08T12:17:55.1726594+05:30" endTime="2015-10-08T12:17:55.2662596+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87e34bf6-6600-48a4-87ea-4e6bc34dc98b">
+    </UnitTestResult>
+    <UnitTestResult executionId="800f8ea0-306c-47e5-bd7f-07f086033de5" testId="0ac0ffee-e4de-5e4a-faf6-1d19ebf93667" testName="CheckAttemptsAreCorrect" computerName="ADMIN-PC" duration="00:00:00.0002551" startTime="2015-10-08T12:17:55.2662596+05:30" endTime="2015-10-08T12:17:55.2818596+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="800f8ea0-306c-47e5-bd7f-07f086033de5">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7a6655a-04bb-40a0-9a30-d9dc58136507" testId="0c08ab89-e6ea-2cb7-4159-36b5ffdf0e3b" testName="CheckIfGameStartedTwiceThrowException" computerName="ADMIN-PC" duration="00:00:00.0098150" startTime="2015-10-08T12:17:55.2818596+05:30" endTime="2015-10-08T12:17:55.3754598+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7a6655a-04bb-40a0-9a30-d9dc58136507">
+    </UnitTestResult>
+    <UnitTestResult executionId="a6bb358b-9bce-4179-8032-8ca4b6e3ee2a" testId="186c07bc-8a36-7912-54f0-b0629d0baf3f" testName="has_set_end_point" computerName="ADMIN-PC" duration="00:00:00.0005853" startTime="2015-10-08T12:17:55.3754598+05:30" endTime="2015-10-08T12:17:55.3754598+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6bb358b-9bce-4179-8032-8ca4b6e3ee2a">
+    </UnitTestResult>
+    <UnitTestResult executionId="f06cf8a6-74e5-4046-a5ab-d0ca5b4daa1f" testId="244283fa-1c02-45c5-c9a4-7ff4d210fe59" testName="CheckIfGameHasPlayerNameBeforeStarted" computerName="ADMIN-PC" duration="00:00:00.0017958" startTime="2015-10-08T12:17:55.3754598+05:30" endTime="2015-10-08T12:17:55.3754598+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f06cf8a6-74e5-4046-a5ab-d0ca5b4daa1f">
+    </UnitTestResult>
+    <UnitTestResult executionId="007b5dda-4317-48f2-a79f-12530017a271" testId="3497b25c-7382-50b8-8b2e-7a9c42e0166d" testName="IfNumberLessThanRandomNumberReturnAimHigher" computerName="ADMIN-PC" duration="00:00:00.0003928" startTime="2015-10-08T12:17:55.3754598+05:30" endTime="2015-10-08T12:17:55.3910598+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="007b5dda-4317-48f2-a79f-12530017a271">
+    </UnitTestResult>
+    <UnitTestResult executionId="a1109528-345c-4070-94be-f278c5c6dceb" testId="3e975d89-b60a-734a-8024-34a0039ed9e6" testName="TestIfPasswordShouldBeLessThan6" computerName="ADMIN-PC" duration="00:00:00.0093366" startTime="2015-10-08T12:17:55.3910598+05:30" endTime="2015-10-08T12:17:55.4846600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1109528-345c-4070-94be-f278c5c6dceb">
+    </UnitTestResult>
+    <UnitTestResult executionId="c2e60c5f-709e-4d6f-a38f-0501c43d44a4" testId="3f996c05-39a7-d0bc-f580-c919dd3b0410" testName="has_set_start_point" computerName="ADMIN-PC" duration="00:00:00.0002192" startTime="2015-10-08T12:17:55.4846600+05:30" endTime="2015-10-08T12:17:55.4846600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2e60c5f-709e-4d6f-a38f-0501c43d44a4">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f190743-2e37-430d-83ab-6d7da75e58de" testId="4b4b5107-e16d-6844-6fee-d7a0c1e5fbbf" testName="thow_exception_if_game_played_wihtout_end_point" computerName="ADMIN-PC" duration="00:00:00.0053478" startTime="2015-10-08T12:17:55.4846600+05:30" endTime="2015-10-08T12:17:55.5002600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f190743-2e37-430d-83ab-6d7da75e58de">
+      <Output>
+        <StdOut>1
+2
+Hot
+4
+Hotter
+Hot
+7
+8
+Hot
+Hotter
+11
+Hot
+13
+14
+Hot
+16
+17
+Hot
+19
+Hotter
+Hot
+22
+23
+Hot
+Hotter
+26
+Hot
+28
+29
+Hot
+31
+32
+Hot
+34
+Hotter
+Hot
+37
+38
+Hot
+Hotter
+41
+Hot
+43
+44
+Hot
+46
+47
+Hot
+49
+Hotter
+Hot
+52
+53
+Hot
+Hotter
+56
+Hot
+58
+59
+Hot
+61
+62
+Hot
+64
+Hotter
+Hot
+67
+68
+Hot
+Hotter
+71
+Hot
+73
+74
+Hot
+76
+77
+Hot
+79
+Hotter
+Hot
+82
+83
+Hot
+Hotter
+86
+Hot
+88
+89
+Hot
+91
+92
+Hot
+94
+Hotter
+Hot
+97
+98
+Hot
+Hotter</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b847b47-ffc2-4604-955f-d2ec87b026f0" testId="4c30c4d4-2829-b02b-fa55-19e47c6af84e" testName="CheckStatusResetAfterRestart" computerName="ADMIN-PC" duration="00:00:00.0002967" startTime="2015-10-08T12:17:55.5002600+05:30" endTime="2015-10-08T12:17:55.5002600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b847b47-ffc2-4604-955f-d2ec87b026f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="5ec3a528-2bb9-475c-99f6-49aeeea11e86" testId="4d76f5fa-3fe2-81d1-1187-8ef08a6e240d" testName="TestVerifyNumberWithinStartAndEndPoint" computerName="ADMIN-PC" duration="00:00:00.0002460" startTime="2015-10-08T12:17:55.5002600+05:30" endTime="2015-10-08T12:17:55.5158600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ec3a528-2bb9-475c-99f6-49aeeea11e86">
+    </UnitTestResult>
+    <UnitTestResult executionId="7809f968-acc8-499c-b9dd-dafbe9c143e4" testId="54fcba90-3918-7879-c61d-d9bb244cac0a" testName="CheckIfGameStarted" computerName="ADMIN-PC" duration="00:00:00.0001448" startTime="2015-10-08T12:17:55.5158600+05:30" endTime="2015-10-08T12:17:55.5158600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7809f968-acc8-499c-b9dd-dafbe9c143e4">
+    </UnitTestResult>
+    <UnitTestResult executionId="6041ecad-662c-4157-aff0-53214e11bb6b" testId="628db3ed-4833-0202-b315-6483646c2ec3" testName="CheckAttemptsAreCorrect" computerName="ADMIN-PC" duration="00:00:00.0002391" startTime="2015-10-08T12:17:55.5158600+05:30" endTime="2015-10-08T12:17:55.5158600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6041ecad-662c-4157-aff0-53214e11bb6b">
+    </UnitTestResult>
+    <UnitTestResult executionId="141ef167-4dc3-4c2a-a860-d9a7189a0bcd" testId="718bded5-fa79-d4bf-e874-a7249fbd2fb7" testName="IfNumberLessThanRandomNumberReturnAimHigher" computerName="ADMIN-PC" duration="00:00:00.0002189" startTime="2015-10-08T12:17:55.5158600+05:30" endTime="2015-10-08T12:17:55.5158600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="141ef167-4dc3-4c2a-a860-d9a7189a0bcd">
+    </UnitTestResult>
+    <UnitTestResult executionId="146badf4-cf16-49ee-9a21-f517f840c0fc" testId="7854da99-1ae1-56fd-feed-cdb33e663f74" testName="TestIfEndPointExists" computerName="ADMIN-PC" duration="00:00:00.0002617" startTime="2015-10-08T12:17:55.5314601+05:30" endTime="2015-10-08T12:17:55.5314601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="146badf4-cf16-49ee-9a21-f517f840c0fc">
+    </UnitTestResult>
+    <UnitTestResult executionId="1d817729-4a12-4bfc-a89c-9172a6487218" testId="79d1f11b-f8c6-33ff-d37f-30c19a12747d" testName="WhenInputDivisibleBy5ReturnHotter" computerName="ADMIN-PC" duration="00:00:00.0001613" startTime="2015-10-08T12:17:55.5314601+05:30" endTime="2015-10-08T12:17:55.5314601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d817729-4a12-4bfc-a89c-9172a6487218">
+    </UnitTestResult>
+    <UnitTestResult executionId="79ac02df-373b-4ce1-b74c-f52623433ecf" testId="7a34aa6a-332e-10b0-fe4c-9e18b9fa90a8" testName="WhenInputNotDivisibleBy35ReturnNumber" computerName="ADMIN-PC" duration="00:00:00.0001721" startTime="2015-10-08T12:17:55.5314601+05:30" endTime="2015-10-08T12:17:55.5314601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79ac02df-373b-4ce1-b74c-f52623433ecf">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a17bf96-3e93-4092-9ad2-c30bd47b3c9c" testId="8720b569-9209-06d4-6550-753aaac9e543" testName="IfNumberEqualToRandomNumberReturnSucess" computerName="ADMIN-PC" duration="00:00:00.0001673" startTime="2015-10-08T12:17:55.5314601+05:30" endTime="2015-10-08T12:17:55.5470601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a17bf96-3e93-4092-9ad2-c30bd47b3c9c">
+    </UnitTestResult>
+    <UnitTestResult executionId="646b8b29-cce6-47d4-8349-5f0f2898777d" testId="89dc68fa-fa07-4217-bd48-3876e3a56f3d" testName="CheckStatusResetAfterRestart" computerName="ADMIN-PC" duration="00:00:00.0003204" startTime="2015-10-08T12:17:55.5470601+05:30" endTime="2015-10-08T12:17:55.5470601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="646b8b29-cce6-47d4-8349-5f0f2898777d">
+    </UnitTestResult>
+    <UnitTestResult executionId="484e8d0a-17c3-413a-a4db-7a28ba2673e2" testId="8c7f8890-8b9c-e555-7a33-7b72be1c0da7" testName="thow_exception_if_game_played_wihtout_start_point" computerName="ADMIN-PC" duration="00:00:00.0008327" startTime="2015-10-08T12:17:55.5470601+05:30" endTime="2015-10-08T12:17:55.5470601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="484e8d0a-17c3-413a-a4db-7a28ba2673e2">
+      <Output>
+        <StdOut>1
+2
+Hot
+4
+Hotter
+Hot
+7
+8
+Hot
+Hotter
+11
+Hot
+13
+14
+Hot
+16
+17
+Hot
+19
+Hotter
+Hot
+22
+23
+Hot
+Hotter
+26
+Hot
+28
+29
+Hot
+31
+32
+Hot
+34
+Hotter
+Hot
+37
+38
+Hot
+Hotter
+41
+Hot
+43
+44
+Hot
+46
+47
+Hot
+49
+Hotter
+Hot
+52
+53
+Hot
+Hotter
+56
+Hot
+58
+59
+Hot
+61
+62
+Hot
+64
+Hotter
+Hot
+67
+68
+Hot
+Hotter
+71
+Hot
+73
+74
+Hot
+76
+77
+Hot
+79
+Hotter
+Hot
+82
+83
+Hot
+Hotter
+86
+Hot
+88
+89
+Hot
+91
+92
+Hot
+94
+Hotter
+Hot
+97
+98
+Hot
+Hotter</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fb8df410-6119-4b3f-a30a-13914bdc8156" testId="92a61772-04ec-4360-4f35-d5e61bd61325" testName="TestIfStartPointExists" computerName="ADMIN-PC" duration="00:00:00.0001260" startTime="2015-10-08T12:17:55.5470601+05:30" endTime="2015-10-08T12:17:55.5470601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb8df410-6119-4b3f-a30a-13914bdc8156">
+    </UnitTestResult>
+    <UnitTestResult executionId="3b30b3de-ee53-4c05-8824-d47faad537aa" testId="9a2b2de3-68f6-0d01-db1a-1d37f11feefc" testName="IfNumberEqualToRandomNumberReturnSucess" computerName="ADMIN-PC" duration="00:00:00.0001667" startTime="2015-10-08T12:17:55.5470601+05:30" endTime="2015-10-08T12:17:55.5470601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b30b3de-ee53-4c05-8824-d47faad537aa">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8d8db11-e571-4cc3-b61b-5161c77bd21f" testId="9dd4ea43-fef2-c7b7-a959-e96e602dd556" testName="TestIfPasswordShouldBeGreaterThan4" computerName="ADMIN-PC" duration="00:00:00.0003726" startTime="2015-10-08T12:17:55.5626601+05:30" endTime="2015-10-08T12:17:55.5626601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8d8db11-e571-4cc3-b61b-5161c77bd21f">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a8045dd-17d2-41d4-add4-d14477be2be7" testId="a0397980-a34e-a1f3-d25a-b14275332670" testName="TestIfStartPointExists" computerName="ADMIN-PC" duration="00:00:00.0001257" startTime="2015-10-08T12:17:55.5626601+05:30" endTime="2015-10-08T12:17:55.5626601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a8045dd-17d2-41d4-add4-d14477be2be7">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f09fbe8-e6fb-4a35-ac98-ef58b68669bd" testId="a64fb3be-0a63-85d4-2861-eb2a6c9c9224" testName="CheckIfGameHasNotEndedInitial" computerName="ADMIN-PC" duration="00:00:00.0001565" startTime="2015-10-08T12:17:55.5626601+05:30" endTime="2015-10-08T12:17:55.5626601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f09fbe8-e6fb-4a35-ac98-ef58b68669bd">
+    </UnitTestResult>
+    <UnitTestResult executionId="deebd090-3dbc-41f5-a37b-50f439499e9c" testId="b0487565-d838-1898-01aa-1c9a8a90ddc7" testName="given_user_not_within_points_throw_exception" computerName="ADMIN-PC" duration="00:00:00.0002725" startTime="2015-10-08T12:17:55.5626601+05:30" endTime="2015-10-08T12:17:55.5626601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="deebd090-3dbc-41f5-a37b-50f439499e9c">
+    </UnitTestResult>
+    <UnitTestResult executionId="e3b3e4d8-07a9-4b9b-9c67-80d6d92c9f67" testId="b1ce1113-cd53-b685-c41f-160138355239" testName="TestIfUserNameShouldBeGreaterThan8" computerName="ADMIN-PC" duration="00:00:00.0003634" startTime="2015-10-08T12:17:55.5626601+05:30" endTime="2015-10-08T12:17:55.5782601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3b3e4d8-07a9-4b9b-9c67-80d6d92c9f67">
+    </UnitTestResult>
+    <UnitTestResult executionId="c69825bf-b13c-4ba8-8d4c-8ebeceed2b35" testId="bb824667-b086-dc7e-b579-864d082c0259" testName="TestIfUserAcceptsUserNameShouldBeLessThan10" computerName="ADMIN-PC" duration="00:00:00.0003925" startTime="2015-10-08T12:17:55.5782601+05:30" endTime="2015-10-08T12:17:55.5782601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c69825bf-b13c-4ba8-8d4c-8ebeceed2b35">
+    </UnitTestResult>
+    <UnitTestResult executionId="b2c5edc0-9ae7-48fb-a27e-424cdac2a745" testId="bd475ef8-fb8a-003b-4339-2cbce56adb35" testName="CheckIfGameHasEnded" computerName="ADMIN-PC" duration="00:00:00.0001587" startTime="2015-10-08T12:17:55.5782601+05:30" endTime="2015-10-08T12:17:55.5782601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2c5edc0-9ae7-48fb-a27e-424cdac2a745">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a238809-21e5-426a-9265-5d9663a7b8bc" testId="cc3055af-326a-4e81-0090-c61bcc7096d2" testName="IfNumberHigherThanRandomNumberReturnAimLower" computerName="ADMIN-PC" duration="00:00:00.0001667" startTime="2015-10-08T12:17:55.5782601+05:30" endTime="2015-10-08T12:17:55.5782601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a238809-21e5-426a-9265-5d9663a7b8bc">
+    </UnitTestResult>
+    <UnitTestResult executionId="f423c89b-a903-488d-a509-bdb1ecdd0228" testId="cff0795b-2276-0bde-8da2-002609763bb7" testName="TestIfEndPointExists" computerName="ADMIN-PC" duration="00:00:00.0001288" startTime="2015-10-08T12:17:55.5782601+05:30" endTime="2015-10-08T12:17:55.5782601+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f423c89b-a903-488d-a509-bdb1ecdd0228">
+    </UnitTestResult>
+    <UnitTestResult executionId="92530fc4-bf15-472a-8035-1a76a08c673e" testId="d6f3b8a1-33ee-26cb-99cf-a677ccfbf700" testName="CheckIfGameHasNotEndedInitial" computerName="ADMIN-PC" duration="00:00:00.0002118" startTime="2015-10-08T12:17:55.5782601+05:30" endTime="2015-10-08T12:17:55.5938602+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92530fc4-bf15-472a-8035-1a76a08c673e">
+    </UnitTestResult>
+    <UnitTestResult executionId="248416db-69cd-43af-9708-a15c8b187590" testId="def8db2d-822f-af11-199b-3976d4144a7b" testName="TestVerifyNumberWithinStartAndEndPoint" computerName="ADMIN-PC" duration="00:00:00.0001630" startTime="2015-10-08T12:17:55.5938602+05:30" endTime="2015-10-08T12:17:55.5938602+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="248416db-69cd-43af-9708-a15c8b187590">
+    </UnitTestResult>
+    <UnitTestResult executionId="efe8a519-9f8c-4866-aea1-95d7a15ea0ff" testId="e9204512-d2b3-39ac-9848-daf06e6c1aa5" testName="CheckIfGameStartedTwiceThrowException" computerName="ADMIN-PC" duration="00:00:00.0003754" startTime="2015-10-08T12:17:55.5938602+05:30" endTime="2015-10-08T12:17:55.5938602+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efe8a519-9f8c-4866-aea1-95d7a15ea0ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc7bdc76-c2f4-4db1-b627-1bb17ee1d9bd" testId="eddd791a-6384-e71b-58a3-bd0bacce3d9e" testName="WhenInputDivisibleBy3ReturnHot" computerName="ADMIN-PC" duration="00:00:00.0001200" startTime="2015-10-08T12:17:55.5938602+05:30" endTime="2015-10-08T12:17:55.5938602+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc7bdc76-c2f4-4db1-b627-1bb17ee1d9bd">
+    </UnitTestResult>
+    <UnitTestResult executionId="7e31ec1f-f69c-4a82-a9f0-713a8b5d801b" testId="ee13354e-b72b-89f6-ebb1-d78ef7ea2cab" testName="CheckIfGameStarted" computerName="ADMIN-PC" duration="00:00:00.0001217" startTime="2015-10-08T12:17:55.5938602+05:30" endTime="2015-10-08T12:17:55.5938602+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e31ec1f-f69c-4a82-a9f0-713a8b5d801b">
+    </UnitTestResult>
+    <UnitTestResult executionId="f50d674e-1ae8-485d-bf82-e7b1e804e1a9" testId="f43b139c-b8d9-d094-5740-45ab3dee97f9" testName="TestWhetherGameIsSavedAfterEnded" computerName="ADMIN-PC" duration="00:00:00.0005972" startTime="2015-10-08T12:17:55.5938602+05:30" endTime="2015-10-08T12:17:55.6094602+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f50d674e-1ae8-485d-bf82-e7b1e804e1a9">
+    </UnitTestResult>
+    <UnitTestResult executionId="fdb4ca39-1c73-4c2c-932a-059f1458236f" testId="f57d2ab1-0c89-889e-767b-bfb8b2e0efb9" testName="CheckIfGameHasEnded" computerName="ADMIN-PC" duration="00:00:00.0001647" startTime="2015-10-08T12:17:55.6094602+05:30" endTime="2015-10-08T12:17:55.6094602+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdb4ca39-1c73-4c2c-932a-059f1458236f">
+    </UnitTestResult>
+    <UnitTestResult executionId="821c5aab-c14d-4693-b1e1-58270c338549" testId="f9b06688-15b7-1a90-fecb-9e5011809b8f" testName="is_game_started" computerName="ADMIN-PC" duration="00:00:00.0001915" startTime="2015-10-08T12:17:55.6094602+05:30" endTime="2015-10-08T12:17:55.6094602+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="821c5aab-c14d-4693-b1e1-58270c338549">
+    </UnitTestResult>
+  </Results>
+</TestRun>
